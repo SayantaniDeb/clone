@@ -135,9 +135,12 @@ const Hero = styled.div`
 
 const Form = styled.div`
   margin-top: 100px;
+  
   width: 408px;
   @media (max-width: 768px) {
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 `;
 
