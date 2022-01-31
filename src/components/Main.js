@@ -377,7 +377,7 @@ const mapStateToProps = (state) => {
 };
 const mapDispatchToProps = (dispatch) => ({
 	getArticles: () => dispatch(getArticlesAPI()),
-	
+	likeHandler: (payload) => dispatch(updateArticleAPI(payload)),
 });
 
 
