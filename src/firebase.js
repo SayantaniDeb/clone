@@ -5,6 +5,7 @@ import 'firebase/auth';
 import 'firebase/storage';
 
 
+
 const firebaseConfig = {
     apiKey: "AIzaSyBq_rs0MfRUfQwW2Z8ARTfcCCoCvUyVqS4",
     authDomain: "linkedin-clone-4944b.firebaseapp.com",
