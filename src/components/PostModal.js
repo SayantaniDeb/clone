@@ -64,7 +64,7 @@ function PostModal(props){
             <Header>
                 <h2>Create a post</h2>
                 <button onClick={(event)=>reset(event)}>
-                <img src="https://img.icons8.com/material-two-tone/24/000000/delete-sign.png"/></button></Header>
+                <img src="https://img.icons8.com/material-two-tone/24/000000/delete-sign.png" alt=""/></button></Header>
                 <SharedContent>
                     <UserInfo>
                         {props.user.photoURL ?(
@@ -97,7 +97,7 @@ function PostModal(props){
                                  <label htmlFor='file'>Select an image to share</label>
                              </p>
                              {shareImage && (
-                             <img src={URL.createObjectURL(shareImage)}/>
+                             <img src={URL.createObjectURL(shareImage)} alt=""/>
                              )}
                              </UploadImage>
                                 ):(
@@ -122,16 +122,16 @@ function PostModal(props){
                         <SharedCreation>
                             <AttachAssets>
                                 <AssetButton onClick={()=> switchAssetArea("image")}>
-                                <img src="https://img.icons8.com/material-sharp/24/000000/image.png"/>
+                                <img src="https://img.icons8.com/material-sharp/24/000000/image.png" alt=""/>
                                 </AssetButton>
                                 <AssetButton onClick={()=> switchAssetArea("media")}>
-                                <img src="https://img.icons8.com/material/24/000000/youtube-play--v1.png"/>
+                                <img src="https://img.icons8.com/material/24/000000/youtube-play--v1.png" alt=""/>
                                 </AssetButton>
 
                             </AttachAssets>
                             <SharedComment>
                         <AssetButton>
-                        <img src="https://img.icons8.com/material-sharp/24/000000/comments--v1.png"/>
+                        <img src="https://img.icons8.com/material-sharp/24/000000/comments--v1.png" alt=""/>
                         Anyone
                         </AssetButton>
                         </SharedComment>
