@@ -9,6 +9,7 @@ const Home = (props) => {
     return (
       <Container>
         {!props.user && <Redirect to= "/"/>}
+        <Content>
         <Section>
           <h5>
             <a>Hiring in a hurry? - </a>
@@ -23,6 +24,7 @@ const Home = (props) => {
           <Main />
           <Rightside />
         </Layout>
+        </Content>
       </Container>
     );
   };
